@@ -38,6 +38,7 @@ def get_api_key():
     return os.environ['OPENAI_API_KEY']
 
 
+
 def get_openai_response(text):
     request = '''
     Rate the assessment emotional of user reviews on a scale of 1 to 10,
